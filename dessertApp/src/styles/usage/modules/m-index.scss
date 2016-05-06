@@ -52,14 +52,15 @@ img{
      @include flexbox(flex);
      @include justify-content(center);
      @include box-sizing(border-box);
-     padding-top:65%;
+     
      .list{
      	@include flexbox(flex);
      	@include flex-direction(column);
      	// width:2.38rem;
      	// height:2.38rem;
       width:75%;
-      height:65%;
+      height:45%;
+      margin-top:60%;
      	.indexUl3{
      		li{
      			border-bottom:none;
