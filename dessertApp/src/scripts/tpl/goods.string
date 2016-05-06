@@ -58,7 +58,7 @@
                     <section class="goodscroll3">
                         <div>
                             <div class="head">
-                                <img src="/course-football/images/jian.jpg"/>
+                                <img src="/dessertApp/images/jian.jpg"/>
                                 <span>下拉刷新...</span>
                             </div>
             		        <div class="group" ms-repeat="fine">
