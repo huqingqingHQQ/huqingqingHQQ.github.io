@@ -1,0 +1,224 @@
+@font-face {
+  font-family: yofont;
+  src: url("/dessertApp/images/iconfont/iconfont.woff") format("woff"), url("/dessertApp/images/iconfont/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/dessertApp/images/iconfont/iconfont1.woff") format("woff"), url("/dessertApp/images/iconfont/iconfont1.ttf") format("truetype");
+}
+@charset "utf-8";
+@import "../core/swiper-3.3.1.min.css";
+@import "../../lib/fragment/yo-header";
+@import "../../lib/element/yo-checked";
+@import "../../lib/element/yo-input";
+@include yo-header(
+  $color: #fff,
+  $bgcolor: #c89c17
+) {
+  font-family:yofont;
+  font-size:.14rem;
+  font-weight:normal;
+  border:none;
+};
+@include yo-checked(
+    $name: test,
+    $on-bgcolor: #ff8400,
+    $on-color: #fff,
+    $color: #fff,
+    $bgcolor: #999
+
+) {
+  width:15px;
+  height:15px;
+}
+
+img{
+    border:none;
+}
+
+.m-index{
+	font-family:yofont;
+	@include flexbox(flex);
+	@include flex-direction(column);
+	width:100%;
+	height:100%;
+	background:#efeff4;
+	.index-content{
+	@include flex(1);
+     width: 100%;
+     background:url('/dessertApp/images/home_bg.jpg');
+     background-size:cover;
+     @include flexbox(flex);
+     @include justify-content(center);
+     padding-top:2.32rem;
+     .list{
+     	@include flexbox(flex);
+     	@include flex-direction(column);
+     	width:2.38rem;
+     	height:2.38rem;
+     	.indexUl3{
+     		li{
+     			border-bottom:none;
+     		}
+     	}
+        .indexUl1{
+        	@include flex(1);
+        	@include flexbox(flex);
+        	width:100%;
+        	position:relative;
+        	.borderLiR{
+        			border-right:2px solid #fff;
+        		}
+        	.borderLiL{
+        		border-left:2px solid #fff;
+        	}
+        	.positionDiv{
+        		width:100%;
+        		height:100%;
+        		position:absolute;
+        		@include flexbox(flex);
+	       		@include flex-direction(row);
+        		left:0;
+        		top:0;
+        		div{
+					@include flex(1);
+					@include flexbox(flex);
+	         		@include flex-direction(column);
+	      			@include justify-content(center);
+	      			@include align-items(center); 
+	     			position:relative;
+	     			width:100%;	
+					p{
+						color:#fff;
+					}
+					p:nth-child(1){
+						font-size:.2rem;
+					}
+        		}
+        	}
+        	li{
+        		@include flex(1);
+        		@include flexbox(flex);
+     			@include align-items(center); 			
+        		border-bottom:2px solid #ccc;
+        		background:#000;
+        		opacity:.2;
+        	}
+        }
+     }
+    
+	}	
+}
+.homepage{
+    width:100%;
+    height:100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    .center{
+      font-family:yofont;
+       @include flex(1);
+       width:100%;
+       overflow:hidden;
+       
+       .pagination-pos{
+           position:relative;
+           .swiper-banner{
+            position:relative;
+           }
+            #pagination-bot{
+            bottom:0;   
+            position:absolute;
+            width:auto;
+            left:75%;
+            .swiper-pagination-bullet{
+                width:.05rem;
+                height:.05rem;
+                margin:0 .02rem;
+                background:#aaaaaa;
+                opacity:1;
+            } 
+            .swiper-pagination-bullet-active{
+                background:#fff;
+            }
+           }
+           .pagination-side{
+                width:100%;
+                height:.22rem;
+                position:absolute;
+                bottom:0;
+                background:#000;
+                opacity:.3;
+                z-index:5;
+            }
+            .pagination-P{
+                position:absolute;
+                bottom:0;
+                left:.1rem;
+                font-size:.12rem;
+                font-weight:bold;
+                z-index:60;
+                color:#fff;
+            }
+       }
+       .bottom{
+        background:#e7e7e7;
+       padding:.04rem;
+       .sameP{
+        width:100%;
+        height:.24rem;
+        background:#f8f8f8;
+        color:#373737;
+        font-size:.12rem;
+        }
+        .group{
+            @include flexbox(flex);
+            background:#fff;
+            margin-bottom:.02rem;
+            >div{
+                @include flex(1);
+                // @include ellipsis(true);
+                p:nth-child(1){
+                    line-height:.25rem;
+                    font-size:12px;
+                    font-weight:bold;
+                }
+                p:nth-child(2){
+                    color:#a7a7a7;
+                    font-size:10px; 
+                    line-height:1.2; 
+                    overflow : hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp:3;
+                    -webkit-box-orient: vertical;
+                }
+                .money{
+                    display:block;
+                    color:#d37201;
+                    text-align:right;
+                    font-size:12px;
+                }
+                #rowTwo{
+                    overflow : hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp:2;
+                    -webkit-box-orient: vertical;
+                }
+            }
+            i{  
+                @include flexbox(flex);
+                @include justify-content(center);
+                @include align-items(center); 
+                font-size:.3rem;
+                color:#cdcdcd;
+            }
+            img{
+                width:.71rem;
+                height:.71rem;
+                padding:.05rem;
+            }
+        }
+       }
+    }
+ }

@@ -1,0 +1,45 @@
+<div class="datapage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">个人资料</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="dataBot" spa-widget="scroll">
+		<div>
+			<div class="dataDiv1">
+				<span>头像</span>
+				<p><img src="/dessertApp/images/personPic.png"/></p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<span>用户昵称：</span>
+				<p>未设置</p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<span>性别：</span>
+				<p>未设置</p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<span>生日：</span>
+				<p>未设置</p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<span>修改密码</span>
+				<p></p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<span>更换手机号</span>
+				<p></p>
+				<i>&#xe677;</i>
+			</div>
+			<div class="dataDiv2">
+				<p class="dataP">退出</p>
+			</div>
+		</div>	
+	</div>
+</div>

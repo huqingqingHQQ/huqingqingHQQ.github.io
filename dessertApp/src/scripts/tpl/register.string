@@ -1,0 +1,26 @@
+<div class="registerpage">   
+   <div class="yo-header yo-header-normal">
+	    <h2 class="title">注册</h2>
+	    <span class="regret">
+	        <i action-type="tap.hide">&#xe641;</i>
+	    </span>
+	    <span class="affirm"  action-type="tap.login">
+	    	登录
+	        <i>&#xe604;</i>
+	    </span>
+	</div>
+	<div class="registerBot">
+		<form>
+			<div class="formDiv1"><span>&#xe617;</span><input type="text" placeholder="请输入您的手机号"/></div>
+			<div class="formDiv2"><input type="password" placeholder="请输入您的验证码"/><span></span><i>获取验证码</i></div>
+			<div class="formDiv3"><!-- <i class="checked">&#xe705;</i> -->
+				<div class="yo-checked yo-checked-test">
+				    <input type="checkbox" name="project"  checked="checked"/>
+				    <span class="type"></span>
+				</div>
+				<span>我已阅读并同意</span><a href="::javascript">左岸婚纱摄影用户协议</a>
+			</div>
+			<input type="button" value="下一步" id="next"/>
+		</form>
+	</div>
+</div>	

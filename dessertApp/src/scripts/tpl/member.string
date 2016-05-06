@@ -1,0 +1,11 @@
+<div class="memberpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">会员服务</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="menberBot">
+		<img src="/dessertApp/images/vip.png"/>
+	</div>
+</div>

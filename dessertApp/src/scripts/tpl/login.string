@@ -1,0 +1,21 @@
+<div class="loginpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">登录</h2>
+	    <span class="regret">
+	        <i action-type="tap.hide">&#xe641;</i>
+	    </span>
+	    <span class="affirm" action-type="tap.regist">
+	    	注册
+	        <i>&#xe604;</i>
+	    </span>
+	</div>
+	<div class="loginBot">
+		<form>
+			<div><span>&#xe617;</span><input type="text" placeholder="请输入您的手机号"/></div>
+			<div><span>&#xe692;</span><input type="password" placeholder="请输入密码(6-16位)"/></div>
+			<p>找回密码</p>
+			<input type="button" value="登录" id="btn" action-type="tap.storage"/>
+		</form>
+	</div>
+	
+</div>

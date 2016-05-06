@@ -1,0 +1,33 @@
+<div class="sellerpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">商户介绍</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	    <span class="affirm">
+	        <i>&#xe601;</i>
+	    </span>
+	</div>
+
+	<div class="sellBot" spa-widget="scroll">
+		<div>
+			<div class="swiper-container" id="seller-swiper">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="/dessertApp/images/sellbanner1.png"/></div>
+			        <div class="swiper-slide"><img src="/dessertApp/images/sellbanner2.png"/></div>
+			        <div class="swiper-slide"><img src="/dessertApp/images/sellbanner3.png"/></div>
+			        <div class="swiper-slide"><img src="/dessertApp/images/sellbanner4.png"/></div>
+			    </div>
+			    <div class="pagination-side"></div>
+			    <div class="swiper-pagination"></div>
+			</div>
+			<p class="pai">品牌介绍</p>
+			<div class="sellContent">
+			   <p>长沙市芙蓉区左岸摄影工作室是婚纱摄影100%满意品牌，以下简称【左岸婚纱】是婚纱摄影100%满意品牌，婚纱摄影定制服务第一品牌，专注于定制顾客最满意婚纱照，定制服务起源于欧洲，是一种体现优雅贵族生活的量身定做服务理念。伴随时代的发展这种先进的服务理念迅速扩散，不论你是想拥有一件物品，还是享受一段时光，定制服务都能让你体验一段不平凡的经历</p>
+			   <p>2008年8月初，左岸婚纱摄影来到长沙，首次把定制服务理念引入 婚纱摄影行业长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是，长沙市芙蓉区左岸摄影工作室是</p>
+			   <p>长沙市芙蓉区左岸摄影工作室是婚纱摄影100%满意品牌，以下简称【左岸婚纱】是婚纱摄影100%满意品牌，婚纱摄影定制服务第一品牌，专注于定制顾客最满意婚纱照，定制服务起源于欧洲，是一种体现优雅贵族生活的量身定做服务理念。伴随时代的发展这种先进的服务理念迅速扩散</p>
+			</div>
+		</div>	
+	</div>
+
+</div>

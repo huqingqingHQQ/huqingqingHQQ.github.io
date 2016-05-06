@@ -1,0 +1,13 @@
+<div class="menupage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">婚纱摄影<i class="i">&#xe608;</i></h2>
+	</div>
+	<div class="menuBot">
+		<ul>
+			<li class="li active" action-type="switch.li">全部</li>
+			<li class="li" action-type="switch.li">婚纱摄影</li>
+			<li class="li" action-type="switch.li">内外景</li>
+			<li></li>
+		</ul>
+	</div>
+</div>

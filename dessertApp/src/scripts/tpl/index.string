@@ -1,0 +1,73 @@
+<div class="m-index">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">左岸婚纱摄影</h2>
+	    <span class="regret" action-type="tap.city">
+	    	长沙
+	        <i>&#xe608;</i>
+	    </span>
+	</div>
+	<div class="index-content">
+		<div class="list">
+			<ul class="indexUl1">
+				<li class="borderLiR"></li>
+				<li></li>
+				<li class="borderLiL"></li>
+				<div class="positionDiv">
+					<div action-type="tap.home">
+						<p>&#xe730;</p>
+						<p>首页</p>
+					</div>
+					<div action-type="tap.goods">
+						<p>&#xecd1;</p>
+						<p>商品</p>
+					</div>
+					<div action-type="tap.my">
+						<p>&#xe600;</p>
+						<p>个人中心</p>
+					</div>	
+			    </div>
+			</ul>
+			
+			<ul class="indexUl1">
+				<li class="borderLiR"></li>
+				<li></li>
+				<li class="borderLiL"></li>
+				<div class="positionDiv">
+					<div action-type="tap.Store">
+						<p>&#xe6cf;</p>
+						<p>门店介绍</p>
+					</div>
+					<div action-type="tap.seller">
+						<p>&#xe60f;</p>
+						<p>商户介绍</p>
+					</div>
+					<div action-type="tap.member">
+						<p>&#xe60b;</p>
+						<p>会员服务</p>
+					</div>	
+			    </div>
+			</ul>
+			<ul class="indexUl1 indexUl3">
+				<li class="borderLiR"></li>
+				<li></li>
+				<li class="borderLiL"></li>
+				<div class="positionDiv">
+					<div action-type="tap.order">
+						<p>&#xe65d;</p>
+						<p>预约服务</p>
+					</div>
+					<div action-type="tap.opinion">
+						<p>&#xe640;</p>
+						<p>意见反馈</p>
+					</div>
+					<div action-type="tap.about">
+						<p>&#xe63b;</p>
+						<p>关于</p>
+					</div>	
+			    </div>
+			</ul>
+		</div>
+
+	</div>
+	
+</div>

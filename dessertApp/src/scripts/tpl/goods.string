@@ -1,0 +1,80 @@
+<div class="goodspage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title" action-type="tap.menu">婚纱摄影<i>&#xe608;</i></h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<nav>
+		<ul id="listUl">
+            <li class="active" action-type="switch.list">最新</li>
+            <li action-type="switch.list">最热</li>
+            <li action-type="switch.list">好评</li>
+        </ul>
+	</nav>
+   <!--  <section class="goodscroll">
+    <div> -->
+    	<div class="swiper-container" id="goods-swiper">
+    	    <div class="swiper-wrapper">
+    	        <div class="swiper-slide discount">
+                    <section class="goodscroll">
+                        <div>
+                            <div class="head">
+                                <img src="/course-football/images/jian.jpg"/>
+                                <span>下拉刷新...</span>
+                            </div>
+            		        <div class="group" ms-repeat="choice">
+                                <img ms-src="el.img"/>
+                                <div>
+                                    <p ms-html="el.p1"></p>
+                                    <p ms-html="el.p2" id="rowTwo"></p>
+                                    <span class="money" ms-html="el.money"></span>
+                                </div>
+                                <i>&#xe677;</i>
+                            </div>
+                        </div>
+                    </section>
+         		</div>
+         		<div class="swiper-slide discount">
+                    <section class="goodscroll2">
+                        <div>
+                            <div class="head">
+                                <img src="/course-football/images/jian.jpg"/>
+                                <span>下拉刷新...</span>
+                            </div>
+            		        <div class="group" ms-repeat="hot">
+                                <img ms-src="el.img"/>
+                                <div>
+                                    <p ms-html="el.p1"></p>
+                                    <p ms-html="el.p2"></p>
+                                    <span class="money" ms-html="el.money"></span>
+                                </div>
+                                <i>&#xe677;</i>
+                            </div>
+                        </div>
+                    </section>
+         		</div>
+         		<div class="swiper-slide discount">
+                    <section class="goodscroll3">
+                        <div>
+                            <div class="head">
+                                <img src="/course-football/images/jian.jpg"/>
+                                <span>下拉刷新...</span>
+                            </div>
+            		        <div class="group" ms-repeat="fine">
+                                <img ms-src="el.img"/>
+                                <div>
+                                    <p ms-html="el.p1"></p>
+                                    <p ms-html="el.p2"></p>
+                                    <span class="money" ms-html="el.money"></span>
+                                </div>
+                                <i>&#xe677;</i>
+                            </div>
+                        </div>
+                    </section>
+         		</div>
+         	</div>
+     	</div>
+   <!--  </div>
+    </section> -->
+</div>

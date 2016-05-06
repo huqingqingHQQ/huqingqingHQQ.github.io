@@ -1,0 +1,20 @@
+<div class="mypage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">个人中心</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="personLogin" action-type="tap.login">
+		<img src="/dessertApp/images/personPic.png"/>
+		<p><i class="itwo">您还未登录</i></p>
+		<i>&#xe677;</i>
+	</div>
+	<div style="padding:.17rem .04rem 0 .04rem;">
+		<div class="card">
+			<i>&#xe638;</i>
+			<p>会员卡</p>
+			<i>&#xe677;</i>
+		</div>
+	</div>
+</div>

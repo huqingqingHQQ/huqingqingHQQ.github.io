@@ -1,0 +1,72 @@
+<div class="homepage">
+    <div class="yo-header yo-header-normal">
+        <h2 class="title">首页</h2>
+        <span class="regret">
+            <i action-type="tap.back">&#xe643;</i>
+        </span>
+    </div>
+
+    <div class="center" id="liveScroll" spa-widget="scroll">
+        <div class="sideDiv">
+            <!-- <div class="head">
+                <img src="images/jian.png" width="40" height="40"/>
+                <span>下拉刷新...</span>
+            </div> -->
+            <div class="swiper-container pagination-pos">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-banner">
+                    	<img src="/dessertApp/images/banner1.png"/>
+                        <p class="pagination-P">水晶之恋</p>
+                        <div class="pagination-side"></div>
+                    </div>
+                    <div class="swiper-slide swiper-banner">
+                    	<img src="/dessertApp/images/banner2.png"/>
+                        <p class="pagination-P">恒爱套系</p>
+                        <div class="pagination-side"></div>
+                    </div>
+                    <div class="swiper-slide swiper-banner">
+                        <img src="/dessertApp/images/banner3.png"/>
+                        <p class="pagination-P">无忧套餐A</p>
+                        <div class="pagination-side"></div>
+                    </div>
+                    <div class="swiper-slide swiper-banner">
+                        <img src="/dessertApp/images/banner4.png"/>
+                        <p class="pagination-P">左岸五年感恩回馈</p>
+                        <div class="pagination-side"></div>
+                    </div>
+                    <div class="swiper-slide swiper-banner">
+                        <img src="/dessertApp/images/banner5.png"/>
+                        <p class="pagination-P">十月国庆新馆手法献礼</p>
+                        <div class="pagination-side"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination" id="pagination-bot"> </div>
+            </div>
+            <div class="bottom">
+                <div class="discount">
+                    <p class="sameP">优惠</p>
+                    <div class="group" ms-repeat="discount">
+                        <img ms-src="el.img"/>
+                        <div>
+                            <p ms-html="el.p1"></p>
+                            <p ms-html="el.p2"></p>
+                        </div>
+                        <i>&#xe677;</i>
+                    </div>
+                </div>
+                <div class="discount">
+                    <p class="sameP">精选</p>
+                    <div class="group" ms-repeat="choice">
+                        <img ms-src="el.img"/>
+                        <div>
+                            <p ms-html="el.p1"></p>
+                            <p ms-html="el.p2" id="rowTwo"></p>
+                            <span class="money" ms-html="el.money"></span>
+                        </div>
+                        <i>&#xe677;</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

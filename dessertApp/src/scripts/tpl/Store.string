@@ -1,0 +1,25 @@
+<div class="storepage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">长沙-全部<i>&#xe608;</i></h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="storeBot">
+		<div class="storeDiv1">
+			<img src="/dessertApp/images/storepic.png"/>
+			<div>
+				<p>长沙市芙蓉区左岸婚纱摄影</p>
+				<p>五一广场新世界百货1006-1106</p>
+			</div>
+			<i>&#xe677;</i>
+		</div>
+		<div class="storeDiv1">
+			<div class="paddingP">
+				<p>左岸婚纱摄影</p>
+				<p>长沙岳麓区高新区麓谷公园瑞龙路209翡翠谷F1栋201</p>
+			</div>
+			<i>&#xe677;</i>
+		</div>
+	</div>
+</div>

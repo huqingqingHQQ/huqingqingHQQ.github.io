@@ -1,0 +1,58 @@
+<div class="positionpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">城市选择</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="positionBot">
+		<input type="text" placeholder="搜索城市名称" id="city"/>
+		<div>
+			<p>定位城市</p>
+			<p action-type="tap.hide">北京</p>
+		</div>
+		<div>
+			<p>历史城市</p>
+			<p action-type="tap.hide">长沙</p>
+		</div>
+		<div>
+			<p>#</p>
+			<p action-type="tap.hide">全国</p>
+		</div>
+		<div>
+			<p>C</p>
+			<p action-type="tap.hide">长沙</p>
+		</div>
+		<p class="posiP">
+			<i>#</i>
+			<i>历史</i>
+			<i>A</i>
+			<i>B</i>
+			<i>C</i>
+			<i>D</i>
+			<i>E</i>
+			<i>F</i>
+			<i>G</i>
+			<i>H</i>
+			<i>I</i>
+			<i>J</i>
+			<i>K</i>
+			<i>L</i>
+			<i>M</i>
+			<i>N</i>
+			<i>O</i>
+			<i>P</i>
+			<i>Q</i>
+			<i>R</i>
+			<i>S</i>
+			<i>T</i>
+			<i>U</i>
+			<i>V</i>
+			<i>W</i>
+			<i>X</i>
+			<i>Y</i>
+			<i>Z</i>
+		</p>	
+	</div>
+	
+</div>	

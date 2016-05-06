@@ -1,0 +1,11 @@
+<div class="aboutpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">关于</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="aboutBot">
+		<img src="/dessertApp/images/about.png"/>
+	</div>
+</div>

@@ -1,0 +1,17 @@
+<div class="opinionpage">
+	<div class="yo-header yo-header-normal">
+	    <h2 class="title">意见反馈</h2>
+	    <span class="regret">
+	        <i action-type="tap.back">&#xe643;</i>
+	    </span>
+	</div>
+	<div class="opinionBot">
+		<form>
+			<textarea placeholder="请反馈您的意见，以便让我们做的更好。" ms-keyup="checkLen(this)" id="textarea" maxlength="200"></textarea>
+			<p ms-html="datalist"></p>
+			<label>您的联系方式：</label>
+			<input type="text" placeholder="手机号/QQ/邮箱" id="text"/>
+			<input type="button" value="提交" id="button"/>
+		</form>
+	</div>
+</div>
