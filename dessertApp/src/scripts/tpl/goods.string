@@ -20,7 +20,7 @@
                     <section class="goodscroll">
                         <div>
                             <div class="head">
-                                <img src="/course-football/images/jian.jpg"/>
+                                <img src="/dessertApp/images/jian.jpg"/>
                                 <span>下拉刷新...</span>
                             </div>
             		        <div class="group" ms-repeat="choice">
@@ -39,7 +39,7 @@
                     <section class="goodscroll2">
                         <div>
                             <div class="head">
-                                <img src="/course-football/images/jian.jpg"/>
+                                <img src="/dessertApp/images/jian.jpg"/>
                                 <span>下拉刷新...</span>
                             </div>
             		        <div class="group" ms-repeat="hot">
