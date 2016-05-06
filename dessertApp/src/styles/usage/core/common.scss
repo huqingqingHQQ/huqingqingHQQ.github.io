@@ -3,7 +3,7 @@ $font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, 
 
 @font-face {
   font-family: yofont;
-  src: url("http://home.com/dessertApp/images/iconfont/iconfont.woff") format("woff"), url("http://home.com/dessertApp/images/iconfont/iconfont.ttf") format("truetype");
+  src: url("/dessertApp/images/iconfont/iconfont.woff") format("woff"), url("/dessertApp/images/iconfont/iconfont.ttf") format("truetype");
 }
 
 body {
